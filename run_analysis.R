@@ -1,5 +1,4 @@
 # You should create one R script called run_analysis.R that does the following. 
-setwd("~/Dropbox/Cursos MOOC/Getting and cleaning data//Project")
 
 # Merges the training and the test sets to create one data set.
 testDataFrame <- data.frame(read.table("UCI HAR Dataset/test/X_test.txt"))
